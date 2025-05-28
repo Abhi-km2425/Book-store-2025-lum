@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+head1{
+    margin-left: 20px;
+}
+
+  nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  li, ul, h1 {
+    display: inline;
+  }
+  
+  ul {
+    margin-left: 60%;
+  }
+  
+  li {
+    margin-left: 50px;
+  }
+  #home {
+    background-image: url("https://media.thegospelcoalition.org/wp-content/uploads/2018/09/11121427/theologically-driven-church-planting-tgc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .home-content{
+    padding-top: 150px;
+    /* padding-left: 50%; */
+
+  }
+  #wel1{
+    font-size: 5rem;
+    
+  }
+  #wel2{
+    font-size: 5rem;
+  }
+
+  .btns{
+    margin-top: 20px;
+    display:flex;
+  }
+
+
+  #btn1{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color:darkgreen
+
+
+  }
+  #btn2{
+   
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color:darkgreen
+  }
+
+
+  /* book section */
+
+
+  .headbook{
+    text-align: center;
+    font-size: 4rem;
+  }
+  .booksection{
+    padding-top: 20px;
+
+  }
+  #fambooks{
+    font-size: 4rem;
+    padding-bottom: 10px;
+  }
+
+/* Parent container */
+.parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Makes it responsive */
+  }
+  
+  /* Card */
+  .card {
+    width: 350px;
+    height: 600px;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional shadow */
+  }
+  
+  /* Book name */
+  .bookname {
+    padding: 5px 2px;
+    color: brown;
+    font-size: 1.5rem;
+  }
+  
+  /* Book description */
+  .bookdescription {
+    padding: 10px;
+    color: tomato;
+  }
+  
+  /* Buttons container */
+  .bookbtns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Individual buttons */
+  .bookbtn1, .bookbtn2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
